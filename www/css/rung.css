@@ -28,10 +28,10 @@ body {
 .actionContents{
   text-align:center;
 }
-#amount > .actionContents{
+#amount > .actionContents, #merchantAmount > .actionContents{
   font-size:32px;
 }
-#enterPin > .actionContents > input, #amount > .actionContents > input{
+#enterPin > .actionContents > input, #amount > .actionContents > input, #merchantAmount > .actionContents > input{
     
     max-width: 200px;
     width: 100%;

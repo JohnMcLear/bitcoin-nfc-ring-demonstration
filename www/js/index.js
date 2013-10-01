@@ -101,10 +101,12 @@ $("body").on('click', "#readRing > #ok", function () {
 $("body").on('click', "#plus", function () {
   // close window / running application
   $("#amount > .actionContents > input").val(parseInt($("#amount > .actionContents > input").val()) + 1);
+  $("#merchantAmount > .actionContents > input").val(parseInt($("#merchantAmount > .actionContents > input").val()) + 1);
 })
 $("body").on('click', "#minus", function () {
   // close window / running application
   $("#amount > .actionContents > input").val(parseInt($("#amount > .actionContents > input").val()) - 1);
+  $("#merchantAmount > .actionContents > input").val(parseInt($("#merchantAmount > .actionContents > input").val()) - 1);
 })
 
 /*
