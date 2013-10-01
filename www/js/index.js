@@ -98,12 +98,12 @@ $("body").on('click', "#readRing > #ok", function () {
   $("#readRing").hide();
   $("#enterPin").show();
 });
-$("body").on('click', "#plus", function () {
+$("body").on('touchstart', "#plus", function () {
   // close window / running application
   $("#amount > .actionContents > input").val(parseInt($("#amount > .actionContents > input").val()) + 1);
   $("#merchantAmount > .actionContents > input").val(parseInt($("#merchantAmount > .actionContents > input").val()) + 1);
 })
-$("body").on('click', "#minus", function () {
+$("body").on('touchstart', "#minus", function () {
   // close window / running application
   $("#amount > .actionContents > input").val(parseInt($("#amount > .actionContents > input").val()) - 1);
   $("#merchantAmount > .actionContents > input").val(parseInt($("#merchantAmount > .actionContents > input").val()) - 1);
