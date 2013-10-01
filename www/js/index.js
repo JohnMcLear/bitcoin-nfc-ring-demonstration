@@ -77,6 +77,7 @@ $("body").on('click', "#exit", function () {
 $("body").on('click', "#amount > #ok", function () {
   $("#amount").hide();
   $("#enterPin").show();
+  $("#enterPin > .actionContents > input").focus();
 });
 $("body").on('click', "#enterPin > #ok", function () {
   $("#enterPin").hide();
