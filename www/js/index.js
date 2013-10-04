@@ -37,7 +37,7 @@ function topUp(nfc, nfcEvent){
   
   setTimeout(function(){
     $("#writeRing > .actionName").text("Top Up Complete"); // pretending..
-    $("#writeRing > .actionContents").html("<img src='img/complete.png'>");
+    $("#writeRing > .actionContents").html("<img src='img/complete.png' width=100%>");
   }, 2000);
   
   
@@ -49,7 +49,7 @@ function takePayment(nfc, nfcEvent){
   
   setTimeout(function(){
     $("#readRing > .actionName").text("Payment Complete"); // pretending..
-    $("#readRing > .actionContents").html("<img src='img/complete.png'>");
+    $("#readRing > .actionContents").html("<img src='img/complete.png' width=100%>");
   }, 2000);
 }
 
