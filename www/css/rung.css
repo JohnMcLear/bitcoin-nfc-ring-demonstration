@@ -227,7 +227,7 @@ a.paddedIcon { padding: 5px }
 .actionContents { font-size: 20px }
 button {
     width: 100%;
-    min-height: 150px;
+    min-height: 100px;
     margin-top: 20px;
     font-size: 20px;
 }
@@ -246,4 +246,10 @@ input {
 
 #enterPin, #writeRing, #readRing{
   display:none;
+}
+
+.currency{
+  vertical-align:middle;
+  display:inline;
+  min-height:80px;
 }
